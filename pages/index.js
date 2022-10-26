@@ -57,11 +57,11 @@ export default function Home() {
                     <li data-rotatetxt="developer,designer">developer</li>
                   </ul>
                   <ul className="social-links">
-                    <li><a href="https://www.twitter.com/" target="_blank"><i className="fa-brands fa-twitter"></i></a></li>
-                    <li><a href="https://www.facebook.com/" target="_blank"><i className="fa-brands fa-facebook-f"></i></a></li>
-                    <li><a href="https://www.instagram.com/" target="_blank"><i className="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="https://www.github.com/" target="_blank"><i className="fa-brands fa-github"></i></a></li>
-                    <li><a href="https://www.linkedin.com/" target="_blank"><i className="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="https://www.twitter.com/" rel="noopener noreferrer" target="_blank"><i className="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank"><i className="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank"><i className="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.github.com/" rel="noopener noreferrer" target="_blank"><i className="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/" rel="noopener noreferrer" target="_blank"><i className="fa-brands fa-linkedin-in"></i></a></li>
                   </ul>
                   <div className="my-pic">
                     <Image src="/mypic.jpg" layout='fill' objectFit='cover' />
@@ -290,11 +290,11 @@ export default function Home() {
                         </ul>
                         <h5>Follow me</h5>
                         <ul className="social-links">
-                          <li><a href="https://www.twitter.com/" target="_blank"><i className="fa-brands fa-twitter"></i></a></li>
-                          <li><a href="https://www.facebook.com/" target="_blank"><i className="fa-brands fa-facebook-f"></i></a></li>
-                          <li><a href="https://www.instagram.com/" target="_blank"><i className="fa-brands fa-instagram"></i></a></li>
-                          <li><a href="https://www.github.com/" target="_blank"><i className="fa-brands fa-github"></i></a></li>
-                          <li><a href="https://www.linkedin.com/" target="_blank"><i className="fa-brands fa-linkedin-in"></i></a></li>
+                          <li><a href="https://www.twitter.com/" rel="noopener noreferrer" target="_blank"><i className="fa-brands fa-twitter"></i></a></li>
+                          <li><a href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank"><i className="fa-brands fa-facebook-f"></i></a></li>
+                          <li><a href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank"><i className="fa-brands fa-instagram"></i></a></li>
+                          <li><a href="https://www.github.com/" rel="noopener noreferrer" target="_blank"><i className="fa-brands fa-github"></i></a></li>
+                          <li><a href="https://www.linkedin.com/" rel="noopener noreferrer" target="_blank"><i className="fa-brands fa-linkedin-in"></i></a></li>
                         </ul>
                       </div>
                     </div>
