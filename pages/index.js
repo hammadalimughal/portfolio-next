@@ -289,12 +289,12 @@ export default function Home() {
                           <li><span>Email:</span> <a href="mailto:mail@yourmail.com">mail@yourmail.com</a></li>
                         </ul>
                         <h5>Follow me</h5>
-                        <ul class="social-links">
-                          <li><a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-                          <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                          <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                          <li><a href="https://www.github.com/" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-                          <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <ul className="social-links">
+                          <li><a href="https://www.twitter.com/" target="_blank"><i className="fa-brands fa-twitter"></i></a></li>
+                          <li><a href="https://www.facebook.com/" target="_blank"><i className="fa-brands fa-facebook-f"></i></a></li>
+                          <li><a href="https://www.instagram.com/" target="_blank"><i className="fa-brands fa-instagram"></i></a></li>
+                          <li><a href="https://www.github.com/" target="_blank"><i className="fa-brands fa-github"></i></a></li>
+                          <li><a href="https://www.linkedin.com/" target="_blank"><i className="fa-brands fa-linkedin-in"></i></a></li>
                         </ul>
                       </div>
                     </div>
