@@ -9,7 +9,7 @@ const Blog = ({blogContent}) => {
           <div className="modal-content">
             <button className="close-modal" type="button" data-bs-dismiss="modal" aria-label="Close"><i className="fa-light fa-xmark"></i></button>
             <h3>{blogContent.title}</h3>
-            <div className="body" dangerouslySetInnerHTML={{__html: blogContent.body}}></div>  
+            <div className="body">{blogContent.body}</div>
           </div>
         </div>
       </div>
