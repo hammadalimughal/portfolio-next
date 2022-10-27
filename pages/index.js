@@ -46,6 +46,11 @@ export default function Home() {
       </Head>
       <Header />
       <main data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" className="scrollspy-example" tabIndex="0">
+      <style jsx>{`
+        .banner-main{
+          background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.75) 100%), url(/banner-img.jpg);
+        }
+      `}</style>
         <section className="banner-main" id="home">
           <div className="container">
             <div className="row justify-content-center">
