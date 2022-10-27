@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import data from './api/portfolio'
 import blogsData from './api/blogs'
+import { Fancybox } from "@fancyapps/ui";
 // import Blog from './components/Blog'
 export default function Home() {
   const validateForm = (e) => {
@@ -181,20 +182,22 @@ export default function Home() {
               <div className="col-xl-10 col-12">
                 <div className="portfolio-content">
                   <h2 className="sec-title">My <span>Work</span></h2>
-                  <div className="portfolio-listing">
-                    {data.slice(0, portfolioItems).map((item) => {
-                      return (
-                        <div key={item.id} className="portfolio-item">
-                          <div className="portfolio-data">
-                            {/* <h5>{item.name}</h5> */}
-                            <a href={item.image}>
-                              <Image alt={item.name} src={item.image} layout="fill" objectFit='cover' />
-                            </a>
+                  {/* <Fancybox> */}
+                    <div className="portfolio-listing">
+                      {data.slice(0, portfolioItems).map((item) => {
+                        return (
+                          <div key={item.id} className="portfolio-item">
+                            <div className="portfolio-data">
+                              {/* <h5>{item.name}</h5> */}
+                              <a data-fancybox="gallery" href={item.image}>
+                                <Image alt={item.name} src={item.image} layout="fill" objectFit='cover' />
+                              </a>
+                            </div>
                           </div>
-                        </div>
-                      )
-                    })}
-                  </div>
+                        )
+                      })}
+                    </div>
+                  {/* </Fancybox> */}
                   <div className="load-more">
                     <button onClick={loadMorePortfolio}>load more</button>
                   </div>
@@ -305,16 +308,16 @@ export default function Home() {
           </div>
         </section>
       </main>
-        <footer>
-          <p>Copyright © 2022. All Rights Reserved.</p>
-        </footer>
+      <footer>
+        <p>Copyright © 2022. All Rights Reserved.</p>
+      </footer>
       {/* <Blog blogContent={blogsData[modalBlogId - 1]} /> */}
       <div className="modal fade blog-modal" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div className="modal-dialog modal-dialog-centered">
           <div className="modal-content">
             <button className="close-modal" type="button" data-bs-dismiss="modal" aria-label="Close"><i className="fa-light fa-xmark"></i></button>
             <h3>{blogsData[modalBlogId - 1].title}</h3>
-            <div className="body" dangerouslySetInnerHTML={{__html: blogsData[modalBlogId - 1].body}}></div>
+            <div className="body" dangerouslySetInnerHTML={{ __html: blogsData[modalBlogId - 1].body }}></div>
           </div>
         </div>
       </div>

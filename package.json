@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fancyapps/ui": "^4.0.31",
     "bootstrap": "^5.2.2",
     "jquery": "^3.6.1",
     "next": "12.3.1",
