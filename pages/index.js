@@ -64,7 +64,7 @@ export default function Home() {
                     <li><a href="https://www.linkedin.com/" rel="noopener noreferrer" target="_blank"><i className="fa-brands fa-linkedin-in"></i></a></li>
                   </ul>
                   <div className="my-pic">
-                    <Image src="/mypic.jpg" layout='fill' objectFit='cover' />
+                    <Image alt="my picture" src="/mypic.jpg" layout='fill' objectFit='cover' />
                   </div>
                 </div>
               </div>
@@ -186,9 +186,9 @@ export default function Home() {
                       return (
                         <div key={item.id} className="portfolio-item">
                           <div className="portfolio-data">
-                            <h5>{item.name}</h5>
-                            <a   href={item.image}>
-                              <Image src={item.image} layout="fill" objectFit='cover' />
+                            {/* <h5>{item.name}</h5> */}
+                            <a href={item.image}>
+                              <Image alt={item.name} src={item.image} layout="fill" objectFit='cover' />
                             </a>
                           </div>
                         </div>
