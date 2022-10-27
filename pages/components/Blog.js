@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Blog = (props) => {
+const Blog = ({blogContent}) => {
   return (
     <>
       {/* <!-- Modal --> */}
@@ -8,8 +8,8 @@ const Blog = (props) => {
         <div className="modal-dialog modal-dialog-centered">
           <div className="modal-content">
             <button className="close-modal" type="button" data-bs-dismiss="modal" aria-label="Close"><i className="fa-light fa-xmark"></i></button>
-            <h3>{props.blogContent.title}</h3>
-            <div className="body" dangerouslySetInnerHTML={{__html: props.blogContent.body}}></div>  
+            <h3>{blogContent.title}</h3>
+            <div className="body" dangerouslySetInnerHTML={{__html: blogContent.body}}></div>  
           </div>
         </div>
       </div>
