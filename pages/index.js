@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import data from './api/portfolio'
 import blogsData from './api/blogs'
-// import Blog from './components/Blog'
+import Blog from './components/Blog'
 export default function Home() {
   const validateForm = (e) => {
     e.preventDefault();
@@ -308,7 +308,7 @@ export default function Home() {
         <footer>
           <p>Copyright © 2022. All Rights Reserved.</p>
         </footer>
-      {/* <Blog blogContent={blogsData[modalBlogId - 1]} /> */}
+      <Blog blogContent={blogsData[modalBlogId - 1]} />
     </>
   )
 }
