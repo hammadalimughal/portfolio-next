@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import data from './api/portfolio'
 import blogsData from './api/blogs'
-import Blog from './components/Blog'
+// import Blog from './components/Blog'
 export default function Home() {
   const validateForm = (e) => {
     e.preventDefault();
@@ -308,7 +308,16 @@ export default function Home() {
         <footer>
           <p>Copyright © 2022. All Rights Reserved.</p>
         </footer>
-      <Blog blogContent={blogsData[modalBlogId - 1]} />
+      {/* <Blog blogContent={blogsData[modalBlogId - 1]} /> */}
+      <div className="modal fade blog-modal" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div className="modal-dialog modal-dialog-centered">
+          <div className="modal-content">
+            <button className="close-modal" type="button" data-bs-dismiss="modal" aria-label="Close"><i className="fa-light fa-xmark"></i></button>
+            <h3>{blogsData[modalBlogId - 1].title}</h3>
+            <div className="body" dangerouslySetInnerHTML={{__html: blogsData[modalBlogId - 1].body}}></div>
+          </div>
+        </div>
+      </div>
     </>
   )
 }
