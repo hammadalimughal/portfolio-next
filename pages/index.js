@@ -4,7 +4,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import data from './api/portfolio'
 import blogsData from './api/blogs'
-import { Fancybox } from "@fancyapps/ui";
 // import Blog from './components/Blog'
 export default function Home() {
   const validateForm = (e) => {
@@ -189,9 +188,9 @@ export default function Home() {
                           <div key={item.id} className="portfolio-item">
                             <div className="portfolio-data">
                               {/* <h5>{item.name}</h5> */}
-                              <a data-fancybox="gallery" href={item.image}>
+                              {/* <a data-fancybox="gallery" href={item.image}> */}
                                 <Image alt={item.name} src={item.image} layout="fill" objectFit='cover' />
-                              </a>
+                              {/* </a> */}
                             </div>
                           </div>
                         )
