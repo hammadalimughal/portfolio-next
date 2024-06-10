@@ -159,7 +159,7 @@ export default function Home() {
                     <div className="col-md-6 col-12 panel">
                       <div className="service-item h-100">
                         <h4>Website Optimization</h4>
-                        <p>Boost your site's performance with our Website Optimization service. We enhance speed, improve SEO, and ensure smooth user experiences, driving higher engagement and better search rankings.</p>
+                        <p>Boost your site&apos;s performance with our Website Optimization service. We enhance speed, improve SEO, and ensure smooth user experiences, driving higher engagement and better search rankings.</p>
                       </div>
                     </div>
                     <div className="col-md-6 col-12 panel">
