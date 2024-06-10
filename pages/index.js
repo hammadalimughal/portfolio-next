@@ -34,7 +34,7 @@ export default function Home() {
       setPortfolioItems(portfolioItems + 3)
     }
   }
-  const [name] = useState("Eva John");
+  const [name] = useState("Binish Siddiqui");
   const [portfolioItems, setPortfolioItems] = useState(6);
   const [blogItems, setBlogItems] = useState(4);
   const [modalBlogId, setModalBlogId] = useState(1);
@@ -42,7 +42,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Home</title>
+        <title>Binish Siddiqui - Portfolio</title>
       </Head>
       <Header />
       <main data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" className="scrollspy-example" tabIndex="0">
@@ -69,7 +69,7 @@ export default function Home() {
                     <li><a href="https://www.linkedin.com/" rel="noopener noreferrer" target="_blank"><i className="fa-brands fa-linkedin-in"></i></a></li>
                   </ul>
                   <div className="my-pic">
-                    <Image alt="my picture" src="/mypic.jpg" layout='fill' objectFit='cover' />
+                    <Image alt="my picture" src="/binish.jpeg" layout='fill' objectFit='cover' />
                   </div>
                 </div>
               </div>
@@ -86,8 +86,8 @@ export default function Home() {
                     <div className="col-lg-6 col-12">
                       <h3 className="heading-2">personal info</h3>
                       <ul className="personal-info">
-                        <li>First Name: <span>Eva</span></li>
-                        <li>Last Name: <span>John</span></li>
+                        <li>First Name: <span>Binish</span></li>
+                        <li>Last Name: <span>Siddiqui</span></li>
                         <li>Age: <span>18 years</span></li>
                         <li>Nationality: <span>American</span></li>
                         <li>Freelance: <span>Available</span></li>
@@ -141,37 +141,37 @@ export default function Home() {
                     <div className="col-md-6 col-12 panel">
                       <div className="service-item h-100">
                         <h4>Responsive Web Design</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos quasi minima consequatur fugiat atque voluptates at accusantium a culpa illo!</p>
+                        <p>Experience seamless browsing with our Responsive Web Design service. We create visually appealing, user-friendly websites that adapt flawlessly to any device, enhancing user engagement and improving your online presence.</p>
                       </div>
                     </div>
                     <div className="col-md-6 col-12 panel">
                       <div className="service-item h-100">
                         <h4>PSD to HTML</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos quasi minima consequatur fugiat atque voluptates at accusantium a culpa illo!</p>
+                        <p>Transform your designs with our PSD to HTML service. We convert PSD files into pixel-perfect, responsive HTML code, ensuring cross-browser compatibility and optimized performance for all devices.</p>
                       </div>
                     </div>
                     <div className="col-md-6 col-12 panel">
                       <div className="service-item h-100">
                         <h4>ReactJS / NextJS Website</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos quasi minima consequatur fugiat atque voluptates at accusantium a culpa illo!</p>
+                        <p>Elevate your online presence with our ReactJS/NextJS website service. We build fast, scalable, and SEO-friendly websites, delivering exceptional user experiences and seamless performance across all devices.</p>
                       </div>
                     </div>
                     <div className="col-md-6 col-12 panel">
                       <div className="service-item h-100">
                         <h4>Website Optimization</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos quasi minima consequatur fugiat atque voluptates at accusantium a culpa illo!</p>
+                        <p>Boost your site's performance with our Website Optimization service. We enhance speed, improve SEO, and ensure smooth user experiences, driving higher engagement and better search rankings.</p>
                       </div>
                     </div>
                     <div className="col-md-6 col-12 panel">
                       <div className="service-item h-100">
                         <h4>Ecommerce Website</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos quasi minima consequatur fugiat atque voluptates at accusantium a culpa illo!</p>
+                        <p>Transform your business with our E-commerce Website service. We design and develop user-friendly, secure, and scalable online stores, enhancing customer experience and driving sales growth.</p>
                       </div>
                     </div>
                     <div className="col-md-6 col-12 panel">
                       <div className="service-item h-100">
                         <h4>Admin Panel Setup</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos quasi minima consequatur fugiat atque voluptates at accusantium a culpa illo!</p>
+                        <p>Streamline your operations with our Admin Panel Setup service. We create intuitive, secure, and customizable admin panels, empowering you to efficiently manage your website and business processes.</p>
                       </div>
                     </div>
                   </div>

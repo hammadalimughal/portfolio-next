@@ -11,7 +11,7 @@ const Header = () => {
                     <div className="row justify-content-center">
                         <div className="col-xl-11">
                             <div className="custom-nav">
-                                <div className="brand-item"><span>EJ</span></div>
+                                <div className="brand-item"><span>BS</span></div>
                                 <nav id="navbar-example2">
                                 <ul className="nav-list">
                                     <li className="nav-item">
